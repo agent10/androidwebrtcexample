@@ -1,0 +1,53 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* OWNERS
+* README
+* ant.properties
+* build.xml
+* start_loopback_stubbed_camera_saved_video_out.py
+* third_party/
+* third_party/.DS_Store
+* third_party/autobanh/
+* third_party/autobanh/.DS_Store
+* third_party/autobanh/BUILD.gn
+* third_party/autobanh/LICENSE
+* third_party/autobanh/LICENSE.md
+* third_party/autobanh/NOTICE
+* third_party/autobanh/lib/
+* third_party/autobanh/lib/autobanh.jar
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/.DS_Store => app/src/main/resources/.DS_Store
+* src/org/.DS_Store => app/src/main/resources/org/.DS_Store
+* src/org/appspot/.DS_Store => app/src/main/resources/org/appspot/.DS_Store
+* /Users/kolenyov/Development/src/examples/androidtests/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
